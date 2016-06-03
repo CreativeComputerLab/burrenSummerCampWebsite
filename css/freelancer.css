@@ -185,6 +185,12 @@ header .intro-text .skills {
     background-color:#7094AA;
 }
 
+
+.page-scroll {
+    font-size:12px;
+
+}
+
 section {
     padding: 100px 0;
 }
@@ -518,7 +524,7 @@ footer .footer-below {
 }
 
 .portfolio-modal .modal-content {
-    padding: 100px 0;
+    padding: 25px 0;
     min-height: 100%;
     border: 0;
     border-radius: 0;
@@ -549,6 +555,7 @@ footer .footer-below {
     height: 75px;
     background-color: transparent;
     cursor: pointer;
+    z-index: 10;
 }
 
 .portfolio-modal .close-modal:hover {

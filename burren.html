@@ -17,6 +17,8 @@
     <!-- Custom CSS -->
     <link href="css/freelancer.css" rel="stylesheet">
 
+
+
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
@@ -29,30 +31,9 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-<script src="https://maps.googleapis.com/maps/api/js"></script>
-<script>
-      function initialize() {
-        var BOEC = { lat:53.1005802, lng: -9.071548};
-        var mapCanvas = document.getElementById('map');
-        var mapOptions = {
-          center: new google.maps.LatLng(53.1005802, -9.071548),
-          zoom: 9,
-          mapTypeId: google.maps.MapTypeId.ROADMAP
-          //draggable: false,
-          //scrollwheel: false,
-          //panControl: false
-          
-        }
-        var map = new google.maps.Map(mapCanvas, mapOptions);
-        var marker1 = new google.maps.Marker({
-            title: "Burren Outdoor Education Centre",
-            position: BOEC,
-            map: map
-          });
-    } //End of initialize()
 
-      google.maps.event.addDomListener(window, 'load', initialize);     
-</script>
+
+
 
 </head>
 
@@ -402,23 +383,69 @@
         </div>
     </section>
 
-    <!-- About Section -->
+    <!-- Practical Section -->
     <section class="practical" id="practical">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Practical</h2>
+                    <h2>Booking and Practical Info</h2>
                     <hr >
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <h3>Location</h3>
-                    <p>The Burren Outdoor Education Centre lies in the heart of the Burren. Ground transportation from <b>Galway</b>, <b>Gort</b>, and <b>Shannon Airport</b> can be arranged</p>
 
-                    <div id="map"></div>
+            <div class="row">
+                <div class="col-sm-4 portfolio-item" >
+                    <a href="#portfolioModal9" class="portfolio-link" data-toggle="modal">
+                        <img src="img/booking.png" class="img-responsive" alt="" style="margin: 0 auto; max-height:180px">
+                        <div class="caption">
+                            <div class="caption-content">
+                            <h4 style="text-align:center">Booking Options</h4>
+                            </div>
+                        </div>                        
+                    </a>
                 </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal10" class="portfolio-link" data-toggle="modal">
+                        <img src="img/irelandMap.png" class="img-responsive" alt="" style="margin: 0 auto; max-height:180px">
+                        <div class="caption">
+                            <div class="caption-content">
+                            <h4 style="text-align:center">Location</h4>
+                            </div>
+                        </div>                        
+                    </a>
+                </div>
+
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal11" class="portfolio-link" data-toggle="modal">
+                        <img src="img/suitcase.png" class="img-responsive" alt="" style="margin: 0 auto; max-height:180px">
+                        <div class="caption">
+                            <div class="caption-content">
+                            <h4 style="text-align:center">What to Bring</h4>
+                            </div>
+                        </div>                        
+                    </a>
+                </div>               
             </div>
+
+
+            <div class="row">
+                <div class="col-sm-4  col-sm-offset-4 portfolio-item" >
+                    <a href="#portfolioModal12" class="portfolio-link" data-toggle="modal">
+                        <img src="img/day_and_night.png" class="img-responsive" alt="" style="margin: 0 auto; max-height:180px">
+                        <div class="caption">
+                            <div class="caption-content">
+                            <h4 style="text-align:center">Daily Schedule</h4>
+                            </div>
+                        </div>                        
+                    </a>
+                </div>
+              
+            </div>
+
+
+
+
+
             <div class="row" style="margin-top:20px">            
                 <div class="col-lg-8 col-lg-offset-2">
                     <h3>Prices</h3>                    
@@ -437,19 +464,6 @@
             </div>            
         </div>
     </section>
-
-    <!-- Contact Section -->
-    <section id="book">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Book</h2>
-                    <hr>
-                </div>
-            </div>
-        </div>
-    </section>
-
 
     <!-- Contact Section -->
     <section id="contact">
@@ -763,6 +777,109 @@
         </div>
     </div>
 
+   <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Location</h2>
+                            <hr>
+                            <div class="row">
+                                <div class="col-lg-8 col-lg-offset-2">
+
+
+                                </div>
+                            </div>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+       <div class="portfolio-modal modal fade" id="portfolioModal10" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Location</h2>
+                            <hr>
+                            <p>The Burren Outdoor Education Centre lies in the heart of the Burren. Collection from <b>Galway</b>, <b>Gort</b>, and <b>Shannon Airport</b> can be arranged</p>
+                            <div id="map"></div>
+
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   <div class="portfolio-modal modal fade" id="portfolioModal11" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Horst Jens</h2>
+                            <hr>
+                            <img src="img/Horst.jpg" class="img-responsive img-centered" alt="">
+                            <p>Use this area of the page to describe yourself.</p>
+
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   <div class="portfolio-modal modal fade" id="portfolioModal12" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Horst Jens</h2>
+                            <hr>
+                            <img src="img/Horst.jpg" class="img-responsive img-centered" alt="">
+                            <p>Use this area of the page to describe yourself.</p>
+
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
@@ -780,6 +897,80 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/freelancer.js"></script>
+
+
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script>
+          function initialize() {
+            console.log("Initialize");
+            var BOEC = { lat:53.1005802, lng: -9.071548};
+            var mapCanvas = document.getElementById('map');
+            var mapOptions = {
+              center: new google.maps.LatLng(53.1005802, -9.071548),
+              zoom: 9,
+              mapTypeId: google.maps.MapTypeId.ROADMAP
+              //draggable: false,
+              //scrollwheel: false,
+              //panControl: false
+              
+            }
+            var map = new google.maps.Map(mapCanvas, mapOptions);
+            var marker1 = new google.maps.Marker({
+                title: "Burren Outdoor Education Centre",
+                position: BOEC,
+                map: map
+              });
+
+           google.maps.event.trigger(map, 'resize');
+        } //End of initialize()
+
+        // Display on main page automatically
+        //google.maps.event.addDomListener(window, 'load', initialize);     
+
+
+        //display in modal call once
+        $('#portfolioModal10').on('shown.bs.modal', function(){
+                console.log("ModalOpen");
+                //initialize();
+                google.maps.event.trigger(map, "resize");
+        });
+
+$(document).on('show.bs.modal','#portfolioModal10', function () {
+        console.log("Modal Showing");
+
+             setTimeout(function(){
+                     console.log("Initialize");
+                    var BOEC = { lat:53.1005802, lng: -9.071548};
+                    var mapCanvas = document.getElementById('map');
+                    var mapOptions = {
+                      center: new google.maps.LatLng(53.1005802, -9.071548),
+                      zoom: 9,
+                      mapTypeId: google.maps.MapTypeId.ROADMAP
+                      //draggable: false,
+                      //scrollwheel: false,
+                      //panControl: false
+                      
+                    }
+                    var map = new google.maps.Map(mapCanvas, mapOptions);
+                    var marker1 = new google.maps.Marker({
+                        title: "Burren Outdoor Education Centre",
+                        position: BOEC,
+                        map: map
+                      });
+                       
+                    google.maps.event.trigger(map, 'resize');
+            }, 300);            
+
+
+
+
+
+});
+
+
+
+    </script>
+
 
 </body>
 
