@@ -197,7 +197,8 @@ section {
 
 section h2 {
     margin: 0;
-    font-size: 3em;
+    /*font-size: 3em; */
+    font-size:32px;
 }
 
 section.success {
@@ -265,7 +266,10 @@ section.computing, section.practical {
 
 #portfolio .portfolio-item {
     right: 0;
-    margin: 0 0 15px;
+    margin: 0 0 25px;
+    padding-left:25px;
+    padding-right:25px;
+    max-height:200px;
 }
 
 #portfolio .portfolio-item .portfolio-link {
@@ -317,7 +321,11 @@ section.computing, section.practical {
 
 #computing .portfolio-item {
     right: 0;
-    margin: 0 0 15px;
+    margin: 0 0 25px;
+    /*
+    padding-left:65px;
+    padding-right:65px;
+    */
 }
 
 #computing .portfolio-item .portfolio-link {
@@ -528,15 +536,29 @@ footer .footer-below {
     min-height: 100%;
     border: 0;
     border-radius: 0;
-    text-align: center;
+    text-align: left;
     background-clip: border-box;
     -webkit-box-shadow: none;
     box-shadow: none;
 }
 
+.portfolio-modal .modal-content p{
+        font-size: 14px;
+}
+
+.portfolio-modal .modal-content li{
+        font-size: 14px;
+}
+
+.portfolio-modal .modal-content .btn{
+    margin-left: 35%;
+    margin-right: 35%;   
+    margin-top:15px;
+}
 .portfolio-modal .modal-content h2 {
     margin: 0;
-    font-size: 3em;
+    font-size: 28px;
+    margin-top:-20px;
 }
 
 .portfolio-modal .modal-content img {
@@ -550,9 +572,9 @@ footer .footer-below {
 .portfolio-modal .close-modal {
     position: absolute;
     top: 25px;
-    right: 25px;
-    width: 75px;
-    height: 75px;
+    right: 15px;
+    width: 25px;
+    height: 25px;
     background-color: transparent;
     cursor: pointer;
     z-index: 10;
@@ -565,8 +587,8 @@ footer .footer-below {
 .portfolio-modal .close-modal .lr {
     z-index: 1051;
     width: 1px;
-    height: 75px;
-    margin-left: 35px;
+    height: 25px;
+    margin-left: 10px;
     background-color: #2c3e50;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
@@ -576,7 +598,7 @@ footer .footer-below {
 .portfolio-modal .close-modal .lr .rl {
     z-index: 1052;
     width: 1px;
-    height: 75px;
+    height: 25px;
     background-color: #2c3e50;
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
@@ -621,3 +643,5 @@ footer .footer-below {
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
     background-color: #2c3e50;
     }
+
+
