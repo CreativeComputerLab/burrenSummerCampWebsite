@@ -546,8 +546,13 @@ footer .footer-below {
         font-size: 14px;
 }
 
+
+.portfolio-modal .modal-content ol {
+    padding-left: 25px;
+}
 .portfolio-modal .modal-content li{
         font-size: 14px;
+        margin-bottom:15px;
 }
 
 .portfolio-modal .modal-content .btn{
@@ -634,8 +639,8 @@ footer .footer-below {
 @media  screen and (min-width : 200px) and (max-width : 479px) {
 
     #map {
-      width:282px;
-      height: 282px;
+      width:272px;
+      height: 272px;
     }
 }
 
