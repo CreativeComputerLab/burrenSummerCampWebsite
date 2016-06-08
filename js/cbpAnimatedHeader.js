@@ -24,6 +24,7 @@ var cbpAnimatedHeader = (function() {
 		}, false );
 	}
 
+/*
 	function scrollPage() {
 		var sy = scrollY();
 		if ( sy >= changeHeaderOn ) {
@@ -34,6 +35,7 @@ var cbpAnimatedHeader = (function() {
 		}
 		didScroll = false;
 	}
+*/
 
 	function scrollY() {
 		return window.pageYOffset || docElem.scrollTop;
