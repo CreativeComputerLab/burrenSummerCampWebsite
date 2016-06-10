@@ -35,3 +35,16 @@ $('body').scrollspy({
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
+
+
+$(window).scroll(function() {
+
+    if ($(this).scrollTop()>300)
+     {
+            $('#scrollToTop').css({"display": "block"});
+     }
+    else
+     {
+           $('#scrollToTop').css({"display": "none"});
+     }
+ });

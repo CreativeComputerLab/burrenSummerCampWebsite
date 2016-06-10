@@ -522,6 +522,17 @@ footer .footer-below {
 }
 
 
+#scrollToTop {
+    display:none;
+}
+
+@media  screen and (min-width : 768px) {
+    #scrollToTop {
+        display:none !important;
+    }
+}
+
+
 @media  screen and (min-width : 768px) and (max-width : 991px) {
         section {
             padding: 150px 0;
@@ -661,3 +672,36 @@ footer .footer-below {
 
 }
 
+#englishFlag, #germanFlag {
+    display:block;
+    width:40px;
+    height:20px;
+    float:right;
+    margin-top:10px;
+    margin-right:0px;
+}
+
+#langButtons {
+display:block;
+float:right;
+margin-right:5px;
+}
+#langButtons p{
+    font-size:10px;
+    text-align:left;
+}
+
+@media  screen and (max-width : 767px) {
+       #germanFlag, #englishFlag {
+         width:30px;
+        height:15px;
+        float:right;
+    }
+
+
+    #langButtons p{
+        font-size:8px;
+        text-align:left;
+    }
+
+}
