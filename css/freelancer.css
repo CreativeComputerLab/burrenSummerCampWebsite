@@ -254,7 +254,7 @@ section.computing, section.practical {
     }
 
     .navbar-fixed-top .navbar-brand {
-        font-size: 15px;
+        font-size: 14px;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
@@ -719,4 +719,19 @@ margin-right:5px;
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+@media  screen and (min-width : 768px) {
+    #headerImg {
+        height:50px; 
+        float:left; 
+        margin-top: -13px;
+    }
+}
+@media  screen and (max-width : 767px) {
+    #headerImg {
+        height:30px; 
+        float:left; 
+        margin-top: -7px;
+    }
 }
